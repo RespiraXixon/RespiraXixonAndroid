@@ -41,14 +41,6 @@ public class MainActivity extends Activity {
         } else {
             ((WebView) findViewById(R.id.activity_main_webview)).restoreState(savedInstanceState);
         }
-
-/*
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new PlaceholderFragment())
-                    .commit();
-        }
-*/
     }
 
     @Override
